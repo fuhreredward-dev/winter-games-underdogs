@@ -524,11 +524,9 @@
                             <div class="nations-grid" id="${gridId}"></div>
                         `;
 
-                        dayDiv.appendChild(eventDiv);
-
-                        // Add nations to the grid
-                        const nationsGrid = document.getElementById(gridId);
-                        if (nationsGrid) {
+                        // Add nations to the grid before appending
+                        const nationsGrid = eventDiv.querySelector('.nations-grid');
+                        if (nationsGrid && event.nations) {
                             event.nations.forEach(nation => {
                                 const nationPill = document.createElement('div');
                                 const tierClass = `tier-${nation.tier}`;
@@ -544,6 +542,8 @@
                                 nationsGrid.appendChild(nationPill);
                             });
                         }
+
+                        dayDiv.appendChild(eventDiv);
                     });
                 }
 
