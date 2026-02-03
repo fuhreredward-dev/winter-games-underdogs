@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic Schedule Admin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0f0f23;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #00d4ff;
+        }
+
+        h1 {
+            color: #00d4ff;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #a8dadc;
+            font-size: 1.1em;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        button {
+            background: linear-gradient(135deg, #00d4ff 0%, #0088ff 100%);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.4);
+        }
+
+        button.secondary {
+            background: linear-gradient(135deg, #666 0%, #444 100%);
+        }
+
+        .search-box {
+            padding: 10px 15px;
+            background: #1a1a2e;
+            border: 2px solid #00d4ff;
+            border-radius: 5px;
+            color: #e0e0e0;
+            font-size: 1em;
+            width: 200px;
+        }
+
+        .day-section {
+            background: #1a1a2e;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-left: 4px solid #00d4ff;
+        }
+
+        .day-title {
+            font-size: 1.5em;
+            color: #00d4ff;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .event-container {
+            background: #0f4c75;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .event-title {
+            font-size: 1.2em;
+            color: #4ade80;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .nations-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+        }
+
+        .nation-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background: #1a1a2e;
+            border-radius: 5px;
+            border: 1px solid #333;
+            transition: all 0.2s;
+        }
+
+        .nation-item:hover {
+            border-color: #00d4ff;
+            background: #16213e;
+        }
+
+        .nation-item input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .nation-item label {
+            flex: 1;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nation-name {
+            font-weight: 500;
+        }
+
+        .nation-meta {
+            font-size: 0.9em;
+            color: #a8dadc;
+            margin-left: auto;
+        }
+
+        .tier-badge {
+            background: #00d4ff;
+            color: #000;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #00d4ff;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            color: #00d4ff;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            color: #a8dadc;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .status-message {
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .status-message.success {
+            background: #10b981;
+            color: white;
+            display: block;
+        }
+
+        .status-message.error {
+            background: #ef4444;
+            color: white;
+            display: block;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #00d4ff;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏔️ Olympic Schedule Admin</h1>
+            <p class="subtitle">Manage confirmed entries for the 2026 Winter Games</p>
+        </header>
+
+        <div class="controls">
+            <input type="text" class="search-box" id="searchInput" placeholder="Search nations...">
+            <button onclick="confirmAll()">✓ Confirm All</button>
+            <button onclick="unconfirmAll()" class="secondary">✕ Unconfirm All</button>
+            <button onclick="saveChanges()">💾 Save Changes</button>
+        </div>
+
+        <div class="stats" id="stats"></div>
+
+        <div id="statusMessage" class="status-message"></div>
+
+        <div id="schedule" class="loading">Loading schedule data...</div>
+    </div>
+
+    <script>
+        let scheduleData = {};
+        let originalData = {};
+
+        // Load schedule data
+        async function loadSchedule() {
+            try {
+                const response = await fetch('data/schedule-data.json');
+                scheduleData = await response.json();
+                originalData = JSON.parse(JSON.stringify(scheduleData));
+                renderSchedule();
+                updateStats();
+            } catch (error) {
+                console.error('Error loading schedule:', error);
+                document.getElementById('schedule').innerHTML = 
+                    '<p style="color: #ef4444;">Error loading schedule data</p>';
+            }
+        }
+
+        function renderSchedule() {
+            const schedule = document.getElementById('schedule');
+            schedule.innerHTML = '';
+
+            const dates = Object.keys(scheduleData).sort();
+
+            dates.forEach(date => {
+                const day = scheduleData[date];
+                const dayDiv = document.createElement('div');
+                dayDiv.className = 'day-section';
+
+                let dayTitle = day.title || date;
+                dayDiv.innerHTML = `<div class="day-title">${dayTitle}</div>`;
+
+                day.events.forEach((event, idx) => {
+                    const eventDiv = document.createElement('div');
+                    eventDiv.className = 'event-container';
+
+                    let eventContent = `<div class="event-title">${event.title}</div>`;
+                    eventContent += `<div style="font-size: 0.9em; color: #a8dadc; margin-bottom: 10px;">${event.time}</div>`;
+                    eventContent += '<div class="nations-list">';
+
+                    event.nations.forEach((nation, nIdx) => {
+                        const id = `nation-${date}-${idx}-${nIdx}`;
+                        eventContent += `
+                            <div class="nation-item">
+                                <input type="checkbox" id="${id}" 
+                                    ${nation.confirmed ? 'checked' : ''} 
+                                    onchange="updateStats()">
+                                <label for="${id}">
+                                    <span class="nation-name">${nation.name}</span>
+                                    <span class="tier-badge">Tier ${nation.tier}</span>
+                                    <span class="nation-meta">${nation.count} athlete${nation.count > 1 ? 's' : ''}</span>
+                                </label>
+                            </div>
+                        `;
+                    });
+
+                    eventContent += '</div>';
+                    eventDiv.innerHTML = eventContent;
+                    dayDiv.appendChild(eventDiv);
+                });
+
+                schedule.appendChild(dayDiv);
+            });
+
+            // Re-attach search functionality
+            setupSearch();
+        }
+
+        function setupSearch() {
+            const searchInput = document.getElementById('searchInput');
+            searchInput.addEventListener('input', function(e) {
+                const query = e.target.value.toLowerCase();
+                const items = document.querySelectorAll('.nation-item');
+
+                items.forEach(item => {
+                    const nationName = item.querySelector('.nation-name').textContent.toLowerCase();
+                    item.style.display = nationName.includes(query) ? 'flex' : 'none';
+                });
+            });
+        }
+
+        function updateStats() {
+            let totalEvents = 0;
+            let totalNations = 0;
+            let confirmedNations = 0;
+            const confirmedSet = new Set();
+
+            Object.values(scheduleData).forEach(day => {
+                day.events.forEach(event => {
+                    totalEvents++;
+                    event.nations.forEach(nation => {
+                        totalNations++;
+                    });
+                });
+            });
+
+            // Count confirmed from checkboxes
+            document.querySelectorAll('input[type="checkbox"]:checked').forEach(checkbox => {
+                const parent = checkbox.closest('.nation-item');
+                const nationName = parent.querySelector('.nation-name').textContent;
+                confirmedSet.add(nationName);
+            });
+
+            confirmedNations = confirmedSet.size;
+
+            const statsHtml = `
+                <div class="stat-card">
+                    <div class="stat-number">${Object.keys(scheduleData).length}</div>
+                    <div class="stat-label">Competition Days</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${totalEvents}</div>
+                    <div class="stat-label">Events</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${totalNations}</div>
+                    <div class="stat-label">Nation Participations</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" style="color: #4ade80;">${confirmedNations}</div>
+                    <div class="stat-label">Confirmed Nations</div>
+                </div>
+            `;
+
+            document.getElementById('stats').innerHTML = statsHtml;
+        }
+
+        function confirmAll() {
+            document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+                checkbox.checked = true;
+            });
+            updateStats();
+        }
+
+        function unconfirmAll() {
+            document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+                checkbox.checked = false;
+            });
+            updateStats();
+        }
+
+        function saveChanges() {
+            const status = document.getElementById('statusMessage');
+            
+            // Update data from checkboxes
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                const id = checkbox.id; // nation-{date}-{eventIdx}-{nationIdx}
+                const parts = id.split('-');
+                const date = parts[1] + '-' + parts[2] + '-' + parts[3];
+                const eventIdx = parseInt(parts[4]);
+                const nationIdx = parseInt(parts[5]);
+
+                if (scheduleData[date] && scheduleData[date].events[eventIdx]) {
+                    scheduleData[date].events[eventIdx].nations[nationIdx].confirmed = checkbox.checked;
+                }
+            });
+
+            // Send to server
+            fetch('api/save-schedule', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(scheduleData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    status.className = 'status-message success';
+                    status.textContent = '✓ Changes saved successfully! Reload schedule.html to see updates.';
+                    setTimeout(() => {
+                        status.style.display = 'none';
+                    }, 5000);
+                } else {
+                    throw new Error(data.message || 'Save failed');
+                }
+            })
+            .catch(error => {
+                status.className = 'status-message error';
+                status.textContent = '❌ Error saving: ' + error.message + '. Data saved to console.';
+                console.log('Schedule data for manual save:', JSON.stringify(scheduleData, null, 2));
+            });
+        }
+
+        // Load on page load
+        loadSchedule();
+    </script>
+</body>
+</html>

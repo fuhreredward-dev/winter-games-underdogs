@@ -1,0 +1,4247 @@
+{
+  "2026-02-06": {
+    "date": "2026-02-06",
+    "events": [
+      {
+        "sport": "Figure Skating",
+        "title": "Figure Skating - Ice Dance",
+        "time": "⏰ 03:55 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Georgia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "Lithuania",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Figure Skating",
+        "title": "Figure Skating - Pairs",
+        "time": "⏰ 05:35 EST",
+        "nations": [
+          {
+            "name": "Armenia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Georgia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "Uzbekistan",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "title": "Friday, February 06, 2026"
+  },
+  "2026-02-07": {
+    "date": "2026-02-07",
+    "events": [
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Men's Downhill",
+        "time": "⏰ 05:30 EST",
+        "nations": [
+          {
+            "name": "Albania",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Andorra",
+            "count": 2,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Armenia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Benin",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 3,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chile",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Cyprus",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Eritrea",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Georgia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Guinea-Bissau",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Haiti",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Hong Kong",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iceland",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "India",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Jamaica",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kenya",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kosovo",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kyrgyzstan",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Lebanon",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Luxembourg",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Madagascar",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Malaysia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Monaco",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Mongolia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Montenegro",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Morocco",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Pakistan",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Philippines",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Portugal",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "San Marino",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Saudi Arabia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Serbia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Singapore",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Thailand",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "United Arab Emirates",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Uruguay",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Uzbekistan",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Cross-Country Skiing",
+        "title": "Cross-Country Skiing - Women's skiathlon",
+        "time": "⏰ 07:00 EST",
+        "nations": [
+          {
+            "name": "Andorra",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Armenia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 4,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 2,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Malta",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mongolia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Serbia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Thailand",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Luge",
+        "title": "Luge - Men's",
+        "time": "⏰ 11:00 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Snowboarding",
+        "title": "Snowboarding - Men's Big Air",
+        "time": "⏰ 14:17 EST",
+        "nations": [
+          {
+            "name": "New Zealand",
+            "count": 3,
+            "tier": 2,
+            "confirmed": false
+          }
+        ]
+      }
+    ],
+    "title": "Saturday, February 07, 2026"
+  },
+  "2026-02-08": {
+    "date": "2026-02-08",
+    "events": [
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Women's Downhill",
+        "time": "⏰ 05:30 EST",
+        "nations": [
+          {
+            "name": "Albania",
+            "count": 3,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Andorra",
+            "count": 3,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 2,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Azerbaijan",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 2,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chile",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Cyprus",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Georgia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Hong Kong",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iceland",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Kenya",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kosovo",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Luxembourg",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Madagascar",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Malaysia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "New Zealand",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Philippines",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Portugal",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "United Arab Emirates",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Cross-Country Skiing",
+        "title": "Cross-Country Skiing - Men's skiathlon",
+        "time": "⏰ 06:30 EST",
+        "nations": [
+          {
+            "name": "Andorra",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Armenia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 3,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Bolivia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chile",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Colombia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ecuador",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Haiti",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Iceland",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "India",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Kyrgyzstan",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Lebanon",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 2,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mongolia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Montenegro",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Morocco",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Nigeria",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Portugal",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Saudi Arabia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Serbia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Thailand",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Venezuela",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          }
+        ]
+      }
+    ],
+    "title": "Sunday, February 08, 2026"
+  },
+  "2026-02-09": {
+    "date": "2026-02-09",
+    "events": [
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Men's Team Combined",
+        "time": "⏰ 04:30 EST",
+        "nations": [
+          {
+            "name": "Andorra",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Luge",
+        "title": "Luge - Women's",
+        "time": "⏰ 11:00 EST",
+        "nations": [
+          {
+            "name": "Argentina",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "title": "Monday, February 09, 2026"
+  },
+  "2026-02-10": {
+    "date": "2026-02-10",
+    "events": [
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Women's Team Combined",
+        "time": "⏰ 04:30 EST",
+        "nations": [
+          {
+            "name": "Albania",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Andorra",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Biathlon",
+        "title": "Biathlon - Men's 20km",
+        "time": "⏰ 07:30 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 4,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 2,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 4,
+            "tier": 1,
+            "confirmed": false
+          }
+        ]
+      }
+    ],
+    "title": "Tuesday, February 10, 2026"
+  },
+  "2026-02-11": {
+    "date": "2026-02-11",
+    "events": [
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Men's Super-G",
+        "time": "⏰ 05:30 EST",
+        "nations": [
+          {
+            "name": "Albania",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Andorra",
+            "count": 2,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Armenia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Benin",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 3,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chile",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Cyprus",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Eritrea",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Georgia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Guinea-Bissau",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Haiti",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Hong Kong",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iceland",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "India",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Jamaica",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kenya",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kosovo",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kyrgyzstan",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Lebanon",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Luxembourg",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Madagascar",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Malaysia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Monaco",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Mongolia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Montenegro",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Morocco",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Pakistan",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Philippines",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Portugal",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "San Marino",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Saudi Arabia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Serbia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Singapore",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Thailand",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "United Arab Emirates",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Uruguay",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Uzbekistan",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Freestyle Skiing",
+        "title": "Freestyle Skiing - Women's Moguls",
+        "time": "⏰ 08:15 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 3,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Biathlon",
+        "title": "Biathlon - Women's 15km",
+        "time": "⏰ 08:15 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Denmark",
+            "count": 2,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Denmark",
+            "count": 2,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 4,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 4,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Luge",
+        "title": "Luge - Women's Doubles",
+        "time": "⏰ 11:00 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Luge",
+        "title": "Luge - Men's Doubles",
+        "time": "⏰ 11:51 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "title": "Wednesday, February 11, 2026"
+  },
+  "2026-02-12": {
+    "date": "2026-02-12",
+    "events": [
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Women's Super-G",
+        "time": "⏰ 05:30 EST",
+        "nations": [
+          {
+            "name": "Albania",
+            "count": 3,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Andorra",
+            "count": 3,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 2,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Azerbaijan",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 2,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chile",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Cyprus",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Georgia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Hong Kong",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iceland",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Kenya",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kosovo",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Luxembourg",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Madagascar",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Malaysia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "New Zealand",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Philippines",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Portugal",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "United Arab Emirates",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Freestyle Skiing",
+        "title": "Freestyle Skiing - Men's Moguls",
+        "time": "⏰ 06:15 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 4,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 4,
+            "tier": 1,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Cross-Country Skiing",
+        "title": "Cross-Country Skiing - Women's 10km classical",
+        "time": "⏰ 07:00 EST",
+        "nations": [
+          {
+            "name": "Andorra",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Armenia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 4,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 2,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Malta",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mongolia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Serbia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Thailand",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Snowboarding",
+        "title": "Snowboarding - Men's Snowboard Cross",
+        "time": "⏰ 09:01 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 3,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Curling",
+        "title": "Curling - Women's Round 1",
+        "time": "⏰ 09:05 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 4,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Luge",
+        "title": "Luge - Relay",
+        "time": "⏰ 12:30 EST",
+        "nations": [
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Snowboarding",
+        "title": "Snowboarding - Women's Halfpipe",
+        "time": "⏰ 14:28 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 3,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Curling",
+        "title": "Curling - Women's Round 2",
+        "time": "⏰ 19:05 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 4,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Ice Hockey",
+        "title": "Ice Hockey - Men's Group Stage",
+        "time": "⏰ 21:10 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 20,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "title": "Thursday, February 12, 2026"
+  },
+  "2026-02-13": {
+    "date": "2026-02-13",
+    "events": [
+      {
+        "sport": "Cross-Country Skiing",
+        "title": "Cross-Country Skiing - Men's 15km classical",
+        "time": "⏰ 05:45 EST",
+        "nations": [
+          {
+            "name": "Andorra",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Armenia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 3,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Bolivia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chile",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Colombia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ecuador",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Haiti",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Iceland",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "India",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Kyrgyzstan",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Lebanon",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 2,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mongolia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Montenegro",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Morocco",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Nigeria",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Portugal",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Saudi Arabia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Serbia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Thailand",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Venezuela",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Snowboarding",
+        "title": "Snowboarding - Women's Snowboard Cross",
+        "time": "⏰ 08:46 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 3,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Skeleton",
+        "title": "Skeleton - Women's",
+        "time": "⏰ 10:00 EST",
+        "nations": [
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Puerto Rico",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Skeleton",
+        "title": "Skeleton - Men's",
+        "time": "⏰ 13:30 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Curling",
+        "title": "Curling - Women's Round 3",
+        "time": "⏰ 14:05 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 4,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Snowboarding",
+        "title": "Snowboarding - Men's Halfpipe",
+        "time": "⏰ 14:28 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 2,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Brazil",
+            "count": 2,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "New Zealand",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "title": "Friday, February 13, 2026"
+  },
+  "2026-02-14": {
+    "date": "2026-02-14",
+    "events": [
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Men's Giant Slalom",
+        "time": "⏰ 04:00 EST",
+        "nations": [
+          {
+            "name": "Albania",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Andorra",
+            "count": 2,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Armenia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Benin",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 3,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chile",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Cyprus",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Eritrea",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Georgia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Guinea-Bissau",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Haiti",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Hong Kong",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iceland",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "India",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Jamaica",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kenya",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kosovo",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kyrgyzstan",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Lebanon",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Luxembourg",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Madagascar",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Malaysia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Monaco",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Mongolia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Montenegro",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Morocco",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Pakistan",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Philippines",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Portugal",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "San Marino",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Saudi Arabia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Serbia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Singapore",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Thailand",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "United Arab Emirates",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Uruguay",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Uzbekistan",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Freestyle Skiing",
+        "title": "Freestyle Skiing - Women's Dual Moguls",
+        "time": "⏰ 05:46 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 3,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Biathlon",
+        "title": "Biathlon - Women's 7.5km Sprint",
+        "time": "⏰ 08:45 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Denmark",
+            "count": 2,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 4,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Curling",
+        "title": "Curling - Women's Round 5",
+        "time": "⏰ 19:05 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 4,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Ice Hockey",
+        "title": "Ice Hockey - Men's Group Stage",
+        "time": "⏰ 21:10 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 20,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "title": "Saturday, February 14, 2026"
+  },
+  "2026-02-15": {
+    "date": "2026-02-15",
+    "events": [
+      {
+        "sport": "Bobsleigh",
+        "title": "Bobsleigh - Women's Monobob",
+        "time": "⏰ 04:00 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Jamaica",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Women's Giant Slalom",
+        "time": "⏰ 04:00 EST",
+        "nations": [
+          {
+            "name": "Albania",
+            "count": 3,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Andorra",
+            "count": 3,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 2,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Azerbaijan",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 2,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chile",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Cyprus",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Georgia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Hong Kong",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iceland",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Kenya",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kosovo",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Luxembourg",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Madagascar",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Malaysia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "New Zealand",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Philippines",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Portugal",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "United Arab Emirates",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Biathlon",
+        "title": "Biathlon - Men's 12.5km Pursuit",
+        "time": "⏰ 05:15 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 4,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 2,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 4,
+            "tier": 1,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Speed Skating",
+        "title": "Speed Skating - Women's 500m",
+        "time": "⏰ 11:03 EST",
+        "nations": [
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Skeleton",
+        "title": "Skeleton - Mixed Team",
+        "time": "⏰ 12:00 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Curling",
+        "title": "Curling - Women's Round 6",
+        "time": "⏰ 14:05 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 4,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Ice Hockey",
+        "title": "Ice Hockey - Men's Group Stage",
+        "time": "⏰ 19:10 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 20,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "title": "Sunday, February 15, 2026"
+  },
+  "2026-02-16": {
+    "date": "2026-02-16",
+    "events": [
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Men's Slalom",
+        "time": "⏰ 04:00 EST",
+        "nations": [
+          {
+            "name": "Albania",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Andorra",
+            "count": 2,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Armenia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Benin",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 3,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chile",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Cyprus",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Eritrea",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Georgia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Guinea-Bissau",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Haiti",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Hong Kong",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iceland",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "India",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Jamaica",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kenya",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kosovo",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kyrgyzstan",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Lebanon",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Luxembourg",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Madagascar",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Malaysia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Monaco",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Mongolia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Montenegro",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Morocco",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Pakistan",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Philippines",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Portugal",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "San Marino",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Saudi Arabia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Serbia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Singapore",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Thailand",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "United Arab Emirates",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Uruguay",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Uzbekistan",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Bobsleigh",
+        "title": "Bobsleigh - Men's 2-Man",
+        "time": "⏰ 04:00 EST",
+        "nations": [
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Jamaica",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Curling",
+        "title": "Curling - Women's Round 7",
+        "time": "⏰ 09:05 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 4,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "title": "Monday, February 16, 2026"
+  },
+  "2026-02-17": {
+    "date": "2026-02-17",
+    "events": [
+      {
+        "sport": "Snowboarding",
+        "title": "Snowboarding - Women's Slopestyle/Big Air",
+        "time": "⏰ 07:54 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 3,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "New Zealand",
+            "count": 2,
+            "tier": 2,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Curling",
+        "title": "Curling - Women's Round 9",
+        "time": "⏰ 14:05 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 4,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "title": "Tuesday, February 17, 2026"
+  },
+  "2026-02-18": {
+    "date": "2026-02-18",
+    "events": [
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Women's Slalom",
+        "time": "⏰ 04:00 EST",
+        "nations": [
+          {
+            "name": "Albania",
+            "count": 3,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Andorra",
+            "count": 3,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 2,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Azerbaijan",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 2,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chile",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Cyprus",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Georgia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Hong Kong",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iceland",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Kenya",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Kosovo",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Luxembourg",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Madagascar",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Malaysia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "New Zealand",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Philippines",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Portugal",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "United Arab Emirates",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Freestyle Skiing",
+        "title": "Freestyle Skiing - Women's Aerials",
+        "time": "⏰ 06:30 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 4,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Snowboarding",
+        "title": "Snowboarding - Men's Slopestyle",
+        "time": "⏰ 07:28 EST",
+        "nations": [
+          {
+            "name": "New Zealand",
+            "count": 3,
+            "tier": 2,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Curling",
+        "title": "Curling - Women's Round 10",
+        "time": "⏰ 09:05 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 4,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Curling",
+        "title": "Curling - Women's Round 11",
+        "time": "⏰ 19:05 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 4,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "title": "Wednesday, February 18, 2026"
+  },
+  "2026-02-19": {
+    "date": "2026-02-19",
+    "events": [
+      {
+        "sport": "Freestyle Skiing",
+        "title": "Freestyle Skiing - Men's Aerials",
+        "time": "⏰ 06:30 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Ski Mountaineering",
+        "title": "Ski Mountaineering - Women's",
+        "time": "⏰ 07:55 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Ski Mountaineering",
+        "title": "Ski Mountaineering - Men's",
+        "time": "⏰ 08:15 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "title": "Thursday, February 19, 2026"
+  },
+  "2026-02-20": {
+    "date": "2026-02-20",
+    "events": [
+      {
+        "sport": "Biathlon",
+        "title": "Biathlon - Men's 15km Mass Start",
+        "time": "⏰ 08:15 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 4,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 2,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 4,
+            "tier": 1,
+            "confirmed": false
+          }
+        ]
+      }
+    ],
+    "title": "Friday, February 20, 2026"
+  },
+  "2026-02-21": {
+    "date": "2026-02-21",
+    "events": [
+      {
+        "sport": "Bobsleigh",
+        "title": "Bobsleigh - Men's 4-Man",
+        "time": "⏰ 04:00 EST",
+        "nations": [
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Jamaica",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Trinidad and Tobago",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Cross-Country Skiing",
+        "title": "Cross-Country Skiing - Men's 50km mass start",
+        "time": "⏰ 05:00 EST",
+        "nations": [
+          {
+            "name": "Andorra",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Armenia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 3,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Bolivia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chile",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Colombia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ecuador",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Haiti",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Iceland",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "India",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Kyrgyzstan",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Lebanon",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 2,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mongolia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Montenegro",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Morocco",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Nigeria",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Portugal",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Saudi Arabia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Serbia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "South Africa",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Thailand",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Turkey",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Venezuela",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Biathlon",
+        "title": "Biathlon - Women's 12.5km Mass Start",
+        "time": "⏰ 08:15 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Denmark",
+            "count": 2,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 4,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Speed Skating",
+        "title": "Speed Skating - Men's Mass Start",
+        "time": "⏰ 10:40 EST",
+        "nations": [
+          {
+            "name": "Denmark",
+            "count": 2,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ],
+    "title": "Saturday, February 21, 2026"
+  },
+  "2026-02-22": {
+    "date": "2026-02-22",
+    "events": [
+      {
+        "sport": "Cross-Country Skiing",
+        "title": "Cross-Country Skiing - Women's 30km mass start",
+        "time": "⏰ 04:00 EST",
+        "nations": [
+          {
+            "name": "Andorra",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Argentina",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Armenia",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Australia",
+            "count": 4,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Bosnia and Herzegovina",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Brazil",
+            "count": 2,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Chinese Taipei",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Iran",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Lithuania",
+            "count": 2,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Malta",
+            "count": 1,
+            "tier": 5,
+            "confirmed": false
+          },
+          {
+            "name": "Mexico",
+            "count": 1,
+            "tier": 2,
+            "confirmed": false
+          },
+          {
+            "name": "Moldova",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Mongolia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "North Macedonia",
+            "count": 1,
+            "tier": 4,
+            "confirmed": false
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": false
+          },
+          {
+            "name": "Serbia",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          },
+          {
+            "name": "Thailand",
+            "count": 1,
+            "tier": 3,
+            "confirmed": false
+          }
+        ]
+      }
+    ],
+    "title": "Sunday, February 22, 2026"
+  }
+}
