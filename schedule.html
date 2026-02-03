@@ -579,8 +579,12 @@
             document.getElementById('lastUpdated').textContent = `Last updated: ${now}`;
         }
 
-        // Load schedule on page load
-        loadSchedule();
+        // Load schedule when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', loadSchedule);
+        } else {
+            loadSchedule();
+        }
     </script>
 </body>
 </html>
