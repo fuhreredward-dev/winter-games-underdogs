@@ -476,12 +476,20 @@
                 console.log('Starting renderSchedule...');
                 console.log('Schedule data:', scheduleData);
                 const schedule = document.getElementById('schedule');
+                
+                if (!schedule) {
+                    console.error('Schedule element not found!');
+                    return;
+                }
+                
+                console.log('Schedule element found:', schedule);
                 schedule.innerHTML = '';
 
                 const dates = Object.keys(scheduleData).sort();
                 console.log('Found dates:', dates);
 
-                dates.forEach(date => {
+                dates.forEach((date, index) => {
+                    console.log(`Processing date ${index + 1}/${dates.length}: ${date}`);
                 const day = scheduleData[date];
                 const dayDiv = document.createElement('div');
                 dayDiv.className = 'day-section';
@@ -535,7 +543,12 @@
                     });
                 }
 
-                schedule.appendChild(dayDiv);
+                const scheduleEl = document.getElementById('schedule');
+                if (scheduleEl) {
+                    scheduleEl.appendChild(dayDiv);
+                } else {
+                    console.error('Schedule element disappeared!');
+                }
             });
             console.log('renderSchedule completed successfully');
         } catch (error) {
