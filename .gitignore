@@ -38,3 +38,4 @@ Thumbs.db
 outputs/
 data/processed/
 *.log
+admin.html
