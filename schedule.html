@@ -147,6 +147,35 @@
             box-shadow: 0 5px 15px rgba(0, 212, 255, 0.4);
         }
 
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            padding: 12px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid #00d4ff;
+            border-radius: 25px;
+            color: #fff;
+            font-size: 1em;
+        }
+
+        .search-box::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .search-box:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.15);
+            border-color: #4ade80;
+        }
+
         #schedule {
             max-width: 1400px;
             margin: 0 auto;
@@ -388,6 +417,11 @@
             </div>
         </div>
 
+        <div class="controls">
+            <input type="text" class="search-box" id="searchBox" placeholder="Search events, nations, dates...">
+            <button class="control-button" onclick="clearSearch()">Clear</button>
+        </div>
+
         <div class="legend">
             <h3>Tier System</h3>
             <p style="margin-bottom: 15px; opacity: 0.8;">Nations are color-coded by their underdog tier based on Winter Olympic participation:</p>
@@ -562,6 +596,57 @@
         }
     }
 
+        function filterSchedule() {
+            const searchText = document.getElementById('searchBox').value.toLowerCase();
+            
+            if (!searchText) {
+                // Show everything
+                document.querySelectorAll('.day-section').forEach(day => day.style.display = 'block');
+                document.querySelectorAll('.event-card').forEach(event => event.style.display = 'block');
+                document.querySelectorAll('.nation-pill').forEach(nation => nation.style.display = 'flex');
+                return;
+            }
+
+            // Hide all first
+            document.querySelectorAll('.day-section').forEach(day => {
+                let dayHasMatch = false;
+                const dayTitle = day.querySelector('.day-title').textContent.toLowerCase();
+                
+                if (dayTitle.includes(searchText)) {
+                    dayHasMatch = true;
+                }
+
+                day.querySelectorAll('.event-card').forEach(event => {
+                    let eventHasMatch = false;
+                    const eventTitle = event.querySelector('.event-title').textContent.toLowerCase();
+                    
+                    if (eventTitle.includes(searchText) || dayTitle.includes(searchText)) {
+                        eventHasMatch = true;
+                    }
+
+                    event.querySelectorAll('.nation-pill').forEach(nation => {
+                        const nationText = nation.textContent.toLowerCase();
+                        if (nationText.includes(searchText) || eventTitle.includes(searchText) || dayTitle.includes(searchText)) {
+                            nation.style.display = 'flex';
+                            eventHasMatch = true;
+                            dayHasMatch = true;
+                        } else {
+                            nation.style.display = 'none';
+                        }
+                    });
+
+                    event.style.display = eventHasMatch ? 'block' : 'none';
+                });
+
+                day.style.display = dayHasMatch ? 'block' : 'none';
+            });
+        }
+
+        function clearSearch() {
+            document.getElementById('searchBox').value = '';
+            filterSchedule();
+        }
+
         function updateSummary() {
             let totalDays = 0;
             let totalEvents = 0;
@@ -598,9 +683,13 @@
 
         // Load schedule when DOM is ready
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', loadSchedule);
+            document.addEventListener('DOMContentLoaded', () => {
+                loadSchedule();
+                document.getElementById('searchBox').addEventListener('input', filterSchedule);
+            });
         } else {
             loadSchedule();
+            document.getElementById('searchBox').addEventListener('input', filterSchedule);
         }
     </script>
 </body>
