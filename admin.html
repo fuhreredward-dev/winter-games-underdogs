@@ -100,6 +100,14 @@
             margin-bottom: 15px;
         }
 
+        .event-header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            gap: 10px;
+        }
+
         .event-title {
             font-size: 1.2em;
             color: #4ade80;
@@ -107,10 +115,136 @@
             font-weight: bold;
         }
 
-        .nations-list {
+        .delete-btn {
+            background: #ef4444;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.85em;
+            transition: all 0.2s;
+        }
+
+        .delete-btn:hover {
+            background: #dc2626;
+        }
+
+        .add-section {
+            background: #16213e;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 2px solid #00d4ff;
+        }
+
+        .add-section h3 {
+            color: #00d4ff;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            color: #a8dadc;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            background: #0f4c75;
+            border: 1px solid #00d4ff;
+            border-radius: 5px;
+            color: #e0e0e0;
+            font-size: 1em;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #4ade80;
+            box-shadow: 0 0 10px rgba(74, 222, 128, 0.3);
+        }
+
+        .form-row {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .autocomplete-container {
+            position: relative;
+        }
+
+        .autocomplete-list {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #0f4c75;
+            border: 1px solid #00d4ff;
+            border-top: none;
+            border-radius: 0 0 5px 5px;
+            max-height: 200px;
+            overflow-y: auto;
+            z-index: 1000;
+            display: none;
+        }
+
+        .autocomplete-list.active {
+            display: block;
+        }
+
+        .autocomplete-item {
+            padding: 10px;
+            cursor: pointer;
+            color: #e0e0e0;
+            border-bottom: 1px solid #1a1a2e;
+            transition: background 0.2s;
+        }
+
+        .autocomplete-item:hover {
+            background: #16213e;
+            color: #4ade80;
+        }
+
+        .add-btn {
+            background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+            color: #000;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .add-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(74, 222, 128, 0.4);
+        }
+
+        .remove-nation-btn {
+            background: #ef4444;
+            color: white;
+            border: none;
+            padding: 3px 8px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+
+        .remove-nation-btn:hover {
+            background: #dc2626;
         }
 
         .nation-item {
@@ -230,6 +364,51 @@
             <button onclick="saveChanges()">💾 Save Changes</button>
         </div>
 
+        <div class="add-section">
+            <h3>➕ Add New Event</h3>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Date (YYYY-MM-DD)</label>
+                    <input type="date" id="eventDate">
+                </div>
+                <div class="form-group">
+                    <label>Time (HH:MM EST)</label>
+                    <input type="time" id="eventTime">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Sport/Discipline</label>
+                <input type="text" id="eventSport" placeholder="e.g., Alpine Skiing, Bobsleigh">
+            </div>
+            <div class="form-group">
+                <label>Event Title</label>
+                <input type="text" id="eventTitle" placeholder="e.g., Men's Downhill, Women's 2-Man">
+            </div>
+            <button onclick="addEvent()" class="add-btn">+ Add Event</button>
+        </div>
+
+        <div class="add-section">
+            <h3>➕ Add Nation to Event</h3>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Select Event</label>
+                    <select id="eventSelect">
+                        <option value="">-- Choose an event --</option>
+                    </select>
+                </div>
+                <div class="form-group autocomplete-container">
+                    <label>Nation Name</label>
+                    <input type="text" id="nationInput" placeholder="Start typing nation name..." autocomplete="off">
+                    <div class="autocomplete-list" id="nationList"></div>
+                </div>
+                <div class="form-group">
+                    <label>Athletes</label>
+                    <input type="number" id="athleteCount" value="1" min="1">
+                </div>
+            </div>
+            <button onclick="addNationToEvent()" class="add-btn">+ Add Nation</button>
+        </div>
+
         <div class="stats" id="stats"></div>
 
         <div id="statusMessage" class="status-message"></div>
@@ -274,8 +453,13 @@
                     const eventDiv = document.createElement('div');
                     eventDiv.className = 'event-container';
 
-                    let eventContent = `<div class="event-title">${event.title}</div>`;
-                    eventContent += `<div style="font-size: 0.9em; color: #a8dadc; margin-bottom: 10px;">${event.time}</div>`;
+                    let eventContent = `<div class="event-header-bar">
+                        <div>
+                            <div class="event-title">${event.title}</div>
+                            <div style="font-size: 0.9em; color: #a8dadc;">${event.time}</div>
+                        </div>
+                        <button class="delete-btn" onclick="deleteEvent('${date}', ${idx})">🗑️ Delete Event</button>
+                    </div>`;
                     eventContent += '<div class="nations-list">';
 
                     event.nations.forEach((nation, nIdx) => {
@@ -290,6 +474,7 @@
                                     <span class="tier-badge">Tier ${nation.tier}</span>
                                     <span class="nation-meta">${nation.count} athlete${nation.count > 1 ? 's' : ''}</span>
                                 </label>
+                                <button class="remove-nation-btn" onclick="removeNation('${date}', ${idx}, ${nIdx})">✕</button>
                             </div>
                         `;
                     });
@@ -304,6 +489,7 @@
 
             // Re-attach search functionality
             setupSearch();
+            updateEventSelect();
         }
 
         function setupSearch() {
@@ -317,6 +503,181 @@
                     item.style.display = nationName.includes(query) ? 'flex' : 'none';
                 });
             });
+        }
+
+        function getAllNations() {
+            const nations = new Set();
+            Object.values(scheduleData).forEach(day => {
+                if (day.events) {
+                    day.events.forEach(event => {
+                        event.nations.forEach(nation => {
+                            nations.add(nation.name);
+                        });
+                    });
+                }
+            });
+            return Array.from(nations).sort();
+        }
+
+        function setupNationAutocomplete() {
+            const nationInput = document.getElementById('nationInput');
+            const nationList = document.getElementById('nationList');
+            const allNations = getAllNations();
+
+            nationInput.addEventListener('input', function(e) {
+                const query = e.target.value.toLowerCase();
+                nationList.innerHTML = '';
+
+                if (query.length === 0) {
+                    nationList.classList.remove('active');
+                    return;
+                }
+
+                const matches = allNations.filter(n => n.toLowerCase().includes(query)).slice(0, 10);
+                
+                if (matches.length === 0) {
+                    nationList.classList.remove('active');
+                    return;
+                }
+
+                matches.forEach(nation => {
+                    const item = document.createElement('div');
+                    item.className = 'autocomplete-item';
+                    item.textContent = nation;
+                    item.onclick = function() {
+                        nationInput.value = nation;
+                        nationList.classList.remove('active');
+                    };
+                    nationList.appendChild(item);
+                });
+
+                nationList.classList.add('active');
+            });
+
+            document.addEventListener('click', function(e) {
+                if (e.target !== nationInput) {
+                    nationList.classList.remove('active');
+                }
+            });
+        }
+
+        function updateEventSelect() {
+            const select = document.getElementById('eventSelect');
+            const currentValue = select.value;
+            select.innerHTML = '<option value="">-- Choose an event --</option>';
+
+            Object.entries(scheduleData).forEach(([date, day]) => {
+                day.events.forEach((event, idx) => {
+                    const optionValue = `${date}|${idx}`;
+                    const option = document.createElement('option');
+                    option.value = optionValue;
+                    option.textContent = `${date} - ${event.title}`;
+                    select.appendChild(option);
+                });
+            });
+
+            select.value = currentValue;
+        }
+
+        function addEvent() {
+            const date = document.getElementById('eventDate').value;
+            const time = document.getElementById('eventTime').value;
+            const sport = document.getElementById('eventSport').value;
+            const title = document.getElementById('eventTitle').value;
+
+            if (!date || !time || !sport || !title) {
+                alert('Please fill in all fields');
+                return;
+            }
+
+            if (!scheduleData[date]) {
+                scheduleData[date] = {
+                    date: date,
+                    title: new Date(date).toLocaleDateString('en-US', {
+                        weekday: 'long',
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                    }),
+                    events: []
+                };
+            }
+
+            scheduleData[date].events.push({
+                sport: sport,
+                title: title,
+                time: `⏰ ${time} EST`,
+                nations: []
+            });
+
+            document.getElementById('eventDate').value = '';
+            document.getElementById('eventTime').value = '';
+            document.getElementById('eventSport').value = '';
+            document.getElementById('eventTitle').value = '';
+
+            renderSchedule();
+            updateStats();
+            saveChanges();
+        }
+
+        function addNationToEvent() {
+            const eventSelect = document.getElementById('eventSelect');
+            const nationInput = document.getElementById('nationInput');
+            const athleteCount = parseInt(document.getElementById('athleteCount').value) || 1;
+
+            if (!eventSelect.value) {
+                alert('Please select an event');
+                return;
+            }
+
+            if (!nationInput.value) {
+                alert('Please enter a nation');
+                return;
+            }
+
+            const [date, eventIdx] = eventSelect.value.split('|');
+            const event = scheduleData[date].events[parseInt(eventIdx)];
+
+            // Check if nation already in this event
+            if (event.nations.some(n => n.name === nationInput.value)) {
+                alert('This nation is already in this event');
+                return;
+            }
+
+            event.nations.push({
+                name: nationInput.value,
+                count: athleteCount,
+                tier: 3,
+                confirmed: false
+            });
+
+            nationInput.value = '';
+            document.getElementById('athleteCount').value = '1';
+
+            renderSchedule();
+            updateStats();
+        }
+
+        function removeNation(date, eventIdx, nationIdx) {
+            if (confirm('Remove this nation from the event?')) {
+                scheduleData[date].events[eventIdx].nations.splice(nationIdx, 1);
+                renderSchedule();
+                updateStats();
+            }
+        }
+
+        function deleteEvent(date, eventIdx) {
+            if (confirm('Delete this entire event?')) {
+                scheduleData[date].events.splice(eventIdx, 1);
+                
+                // Remove empty days
+                if (scheduleData[date].events.length === 0) {
+                    delete scheduleData[date];
+                }
+
+                renderSchedule();
+                updateStats();
+            }
         }
 
         function updateStats() {
@@ -425,6 +786,7 @@
 
         // Load on page load
         loadSchedule();
+        setupNationAutocomplete();
     </script>
 </body>
 </html>
