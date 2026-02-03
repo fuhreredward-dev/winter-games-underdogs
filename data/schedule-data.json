@@ -3983,5 +3983,67 @@
       }
     ],
     "title": "Sunday, February 22, 2026"
+  },
+  "2026-02-04": {
+    "date": "2026-02-04",
+    "title": "Wednesday, February 04, 2026",
+    "events": [
+      {
+        "sport": "Alpine Skiing",
+        "title": "Alpine Skiing - Men's Downhill (Training)",
+        "time": "⏰ 05:30 EST",
+        "nations": [
+          {
+            "name": "Argentina",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Ireland",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Israel",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "Liechtenstein",
+            "count": 1,
+            "tier": 2,
+            "confirmed": true
+          },
+          {
+            "name": "Monaco",
+            "count": 1,
+            "tier": 5,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Luge",
+        "title": "Luge - Men's (Training)",
+        "time": "⏰ 13:30 EST",
+        "nations": [
+          {
+            "name": "Australia",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          },
+          {
+            "name": "Romania",
+            "count": 2,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      }
+    ]
   }
 }
