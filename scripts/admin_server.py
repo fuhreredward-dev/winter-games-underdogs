@@ -12,15 +12,52 @@ Then visit: http://localhost:8000/admin.html
 """
 
 from http.server import HTTPServer, SimpleHTTPRequestHandler
+import base64
 import json
 import os
 from pathlib import Path
 from datetime import datetime
 
 
+ADMIN_USER = os.environ.get("ADMIN_USER", "admin")
+ADMIN_PASS = os.environ.get("ADMIN_PASS", "changeme")
+
+
 class AdminHandler(SimpleHTTPRequestHandler):
+    def _is_protected_path(self, path: str) -> bool:
+        return path in (
+            "/admin.html",
+            "/api/save-schedule",
+            "/data/schedule-data.json",
+        )
+
+    def _unauthorized(self):
+        self.send_response(401)
+        self.send_header("WWW-Authenticate", 'Basic realm="Admin"')
+        self.end_headers()
+
+    def _check_auth(self) -> bool:
+        auth = self.headers.get("Authorization", "")
+        if not auth.startswith("Basic "):
+            return False
+        try:
+            decoded = base64.b64decode(auth.split(" ", 1)[1]).decode("utf-8")
+            user, password = decoded.split(":", 1)
+            return user == ADMIN_USER and password == ADMIN_PASS
+        except Exception:
+            return False
+
+    def do_GET(self):
+        if self._is_protected_path(self.path) and not self._check_auth():
+            self._unauthorized()
+            return
+        super().do_GET()
+
     def do_POST(self):
         """Handle POST requests to save schedule data."""
+        if self._is_protected_path(self.path) and not self._check_auth():
+            self._unauthorized()
+            return
         if self.path == '/api/save-schedule':
             content_length = int(self.headers.get('Content-Length', 0))
             body = self.rfile.read(content_length).decode('utf-8')
@@ -77,6 +114,9 @@ def main():
 
 Admin Interface: http://localhost:{port}/admin.html
 Schedule Data:  http://localhost:{port}/data/schedule-data.json
+
+Auth: Basic (ADMIN_USER/ADMIN_PASS env vars)
+Default: admin / changeme
 
 Press Ctrl+C to stop the server.
 """)
