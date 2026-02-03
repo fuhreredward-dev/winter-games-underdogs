@@ -433,16 +433,30 @@
 
         // Load and render schedule
         async function loadSchedule() {
-            try {
-                const response = await fetch('data/schedule-data.json');
-                scheduleData = await response.json();
-                renderSchedule();
-                updateSummary();
-            } catch (error) {
-                console.error('Error loading schedule:', error);
-                document.getElementById('schedule').innerHTML = 
-                    '<p style="color: #ff6b6b;">Error loading schedule data. Falling back to static HTML.</p>';
+            const basePath = window.location.pathname.replace(/\/[^/]*$/, '/');
+            const candidates = [
+                new URL('data/schedule-data.json', window.location.href).toString(),
+                `${window.location.origin}${basePath}data/schedule-data.json`,
+                `${window.location.origin}/data/schedule-data.json`
+            ];
+
+            for (const dataUrl of candidates) {
+                try {
+                    const response = await fetch(dataUrl, { cache: 'no-store' });
+                    if (!response.ok) {
+                        continue;
+                    }
+                    scheduleData = await response.json();
+                    renderSchedule();
+                    updateSummary();
+                    return;
+                } catch (error) {
+                    console.error('Error loading schedule from', dataUrl, error);
+                }
             }
+
+            document.getElementById('schedule').innerHTML = 
+                '<p style="color: #ff6b6b;">Error loading schedule data. Please refresh or check deployment.</p>';
         }
 
         function renderSchedule() {
