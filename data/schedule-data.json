@@ -408,12 +408,6 @@
             "confirmed": true
           },
           {
-            "name": "New Zealand",
-            "count": 1,
-            "tier": 2,
-            "confirmed": true
-          },
-          {
             "name": "Chile",
             "count": 1,
             "tier": 5,
@@ -436,31 +430,31 @@
             "name": "Argentina",
             "count": 2,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Armenia",
             "count": 1,
             "tier": 2,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Australia",
             "count": 3,
             "tier": 1,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Bolivia",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Bosnia and Herzegovina",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Brazil",
@@ -472,7 +466,7 @@
             "name": "Chile",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Chinese Taipei",
@@ -496,13 +490,13 @@
             "name": "Haiti",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Iceland",
             "count": 1,
             "tier": 4,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "India",
@@ -520,7 +514,7 @@
             "name": "Ireland",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Israel",
@@ -550,7 +544,7 @@
             "name": "Lithuania",
             "count": 2,
             "tier": 2,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Mexico",
@@ -568,7 +562,7 @@
             "name": "Mongolia",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Montenegro",
@@ -604,7 +598,7 @@
             "name": "Romania",
             "count": 2,
             "tier": 1,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Saudi Arabia",
@@ -628,7 +622,7 @@
             "name": "Thailand",
             "count": 1,
             "tier": 3,
-            "confirmed": false
+            "confirmed": true
           },
           {
             "name": "Turkey",
@@ -641,6 +635,51 @@
             "count": 1,
             "tier": 3,
             "confirmed": false
+          }
+        ]
+      },
+      {
+        "sport": "Luge",
+        "title": "Luge - Women's (Training 3)",
+        "time": "⏰ 2:30 EST",
+        "nations": [
+          {
+            "name": "Argentina",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
+          },
+          {
+            "name": "Romania",
+            "count": 1,
+            "tier": 1,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Snowboarding",
+        "title": "Snowboarding - Men's Parallel Giant Slalom",
+        "time": "⏰ 03:30 EST",
+        "nations": [
+          {
+            "name": "Bulgaria",
+            "count": 3,
+            "tier": 3,
+            "confirmed": true
+          }
+        ]
+      },
+      {
+        "sport": "Snowboarding",
+        "title": "Snowboarding - Women's Parallel Giant Slalom",
+        "time": "⏰ 03:00 EST",
+        "nations": [
+          {
+            "name": "Bulgaria",
+            "count": 1,
+            "tier": 3,
+            "confirmed": true
           }
         ]
       }
